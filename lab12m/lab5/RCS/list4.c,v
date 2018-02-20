@@ -1,0 +1,817 @@
+head	1.38;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.38
+date	2015.02.11.20.55.41;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2015.02.11.20.54.15;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2015.02.11.20.53.53;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2015.02.11.20.52.57;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2015.02.11.20.51.38;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2015.02.11.20.51.09;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2015.02.11.20.50.14;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2015.02.11.20.49.40;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2015.02.11.20.48.19;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2015.02.11.20.47.06;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2015.02.11.20.45.17;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2015.02.10.23.40.43;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2015.02.10.23.40.13;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2015.02.10.23.38.56;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2015.02.10.23.30.27;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2015.02.10.23.28.30;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2015.02.10.23.27.25;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2015.02.10.23.26.48;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2015.02.10.23.25.22;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2015.02.10.23.23.31;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2015.02.10.22.49.23;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2015.02.10.22.48.35;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2015.02.10.22.39.45;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2015.02.10.22.39.25;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2015.02.10.22.37.26;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2015.02.10.22.31.11;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2015.02.10.22.30.50;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2015.02.10.22.28.07;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2015.02.10.22.22.43;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2015.02.10.22.18.03;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2015.02.10.22.17.33;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2015.02.10.22.15.58;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2015.02.10.21.36.59;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2015.02.10.21.34.08;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2015.02.10.21.33.02;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2015.02.10.21.30.59;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2015.02.10.21.23.21;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2015.02.10.21.22.55;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.38
+log
+@-
+@
+text
+@// $Id: list4.c,v 1.37 2015-02-11 12:54:15-08 - - $
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct node node;
+struct node {
+   char *word;
+   node *link;
+};
+
+int main (int argc, char **argv) {
+   node *head = NULL;
+   for (int argi = 0; argi < 5; ++argi) {
+      node *node = malloc (sizeof (struct node));
+      assert (node != NULL);
+      node->word = argv[argi];
+      node->link = head;
+      head = node;
+   }
+   for (node *curr = head; curr != NULL;) {
+      node *tmp = curr;
+      printf ("%p->node {word=%p->[%s], link=%p}\n",
+              curr, curr->word, curr->word, curr->link);
+      curr= curr->link;
+      free(tmp);
+   }
+   return EXIT_SUCCESS;
+}
+@
+
+
+1.37
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.36 2015-02-11 12:53:53-08 - - $
+a12 1
+   int count =0;
+a13 1
+   node next = NULL;
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.35 2015-02-11 12:52:57-08 - - $
+d24 1
+a24 1
+      tmp = curr;
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.34 2015-02-11 12:51:38-08 - - $
+d24 1
+a24 1
+      next = curr->link;
+d27 2
+a28 2
+      free(curr);
+      curr = curr->link;
+@
+
+
+1.34
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.33 2015-02-11 12:51:09-08 - - $
+d23 1
+a23 1
+   for (node *curr = head; curr != NULL; curr = next) {
+a26 1
+      curr->link = NULL;
+d28 1
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.32 2015-02-11 12:50:14-08 - - $
+a23 1
+      node temp = curr;
+d28 1
+a28 1
+      free(temp);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.31 2015-02-11 12:49:40-08 - - $
+d23 2
+a24 1
+   for (node *curr = head; curr->link != NULL; curr = next) {
+d29 1
+a29 1
+      free(curr);
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.30 2015-02-11 12:48:19-08 - - $
+d23 1
+a23 1
+   for (node *curr = head; curr != NULL; curr = next) {
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.29 2015-02-11 12:47:06-08 - - $
+a23 1
+      printf("%d",count++)
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.28 2015-02-11 12:45:17-08 - - $
+d13 1
+d24 1
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.27 2015-02-10 15:40:43-08 - - $
+d26 1
+@
+
+
+1.27
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.26 2015-02-10 15:40:13-08 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = next) {
+d28 1
+a28 1
+   return 9;
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.25 2015-02-10 15:38:56-08 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr != NULL; curr = next) {
+@
+
+
+1.25
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.24 2015-02-10 15:30:27-08 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = next) {
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.23 2015-02-10 15:28:30-08 - - $
+d22 2
+a23 1
+   for (node *curr = head; curr->link != NULL; curr = curr.link) {
+a25 3
+   }
+   for(node *curr = head; curr != NULL; curr = next) {
+      next = curr.next;
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.22 2015-02-10 15:27:25-08 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr != NULL; curr = next) {
+d25 3
+a27 1
+      next = curr->link;
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.21 2015-02-10 15:26:48-08 - - $
+d22 1
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = next) {
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.20 2015-02-10 15:25:22-08 - - $
+d14 1
+a22 1
+      node next = NULL;
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.19 2015-02-10 15:23:31-08 - - $
+d21 2
+a22 2
+   for (node *curr = head; curr!= NULL; curr = next) {
+      node next = curr.link;
+d25 1
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.18 2015-02-10 14:49:23-08 - - $
+d21 1
+a21 1
+   for (node *curr = head; curr->link != NULL; curr = next) {
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.17 2015-02-10 14:48:35-08 - - $
+d21 2
+a22 1
+   for (node *curr = head; curr->link != NULL; curr = curr->link) {
+a26 6
+   while(head!=NULL){
+       node temp = head;
+       head = head->link;  
+       temp->link = NULL;
+       free(temp);
+   }
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.16 2015-02-10 14:39:45-08 - - $
+a19 7
+      /*if(argi==argc){
+           while(head!=NULL){
+                 node temp = head;
+                 head = head->link;   
+                 free(temp);
+           }
+      }*/
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.15 2015-02-10 14:39:25-08 - - $
+d20 1
+a20 1
+      if(argi==argc){
+d26 1
+a26 1
+      }
+d36 1
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.14 2015-02-10 14:37:26-08 - - $
+d20 1
+a20 1
+      if(argi==argc-1){
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.13 2015-02-10 14:31:11-08 - - $
+d20 7
+d33 5
+a37 5
+  // while(head!=NULL){
+    //   node temp = head;
+      // head = head->link;  
+      // free(temp);
+  // }
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.12 2015-02-10 14:30:50-08 - - $
+d24 1
+d26 5
+a30 5
+   while(head!=NULL){
+       node temp = head;
+       head = head->link;  
+       free(temp);
+   }
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.11 2015-02-10 14:28:07-08 - - $
+d25 1
+a25 1
+   /*while(head!=NULL){
+d29 1
+a29 1
+   }*/
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.10 2015-02-10 14:22:43-08 - - $
+d26 1
+a26 1
+       node p = head;
+d28 1
+a28 1
+       free(p);
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.9 2015-02-10 14:18:03-08 - - $
+a23 1
+      free(curr);
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.8 2015-02-10 14:17:33-08 - - $
+d24 1
+d26 1
+a26 1
+   while(head!=NULL){
+d30 1
+a30 1
+   }
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.7 2015-02-10 14:15:58-08 - - $
+a19 1
+      free(node);
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.6 2015-02-10 13:36:59-08 - - $
+d26 4
+a29 2
+   for(node p = head; head != null; head = head->link)
+        free(p);
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.5 2015-02-10 13:34:08-08 - - $
+a13 3
+   node *dangle = malloc(sizeof(struct node));
+   dangle->word = "foobar";
+   dangle->link = NULL;
+a19 1
+      node = dangle;
+d26 3
+a28 1
+   free(dangle);
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.4 2015-02-10 13:33:02-08 - - $
+d14 3
+a16 1
+   node *dangle = NULL;
+d30 1
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.3 2015-02-10 13:30:59-08 - - $
+d14 1
+d21 1
+a21 1
+      node= NULL;
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.2 2015-02-10 13:23:21-08 - - $
+d20 1
+a20 1
+      node->link = NULL;
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list4.c,v 1.1 2015-02-10 13:22:55-08 - - $
+d20 1
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list3.c,v 1.5 2015-02-10 13:17:47-08 - - $
+d20 1
+a20 1
+      free(*node);
+@

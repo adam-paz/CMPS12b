@@ -1,0 +1,9 @@
+total 12
+drwx------.  2 apa10   users 2048 Jan  6 14:24 .
+drwx------. 90 wmackey users 4096 Jan  6 14:31 ..
+-rw-r--r--.  1 apa10   users  217 Jan  6 14:07 1_01_private-lab0
+-rw-r--r--.  1 apa10   users   29 Jan  6 14:09 1_02_date
+-rw-r--r--.  1 apa10   users  225 Jan  6 14:13 1_03_acl
+-rw-r--r--.  1 apa10   users    5 Jan  6 14:15 1_04_which_shell
+-rw-r--r--.  1 apa10   users   69 Jan  6 14:18 1_05_getent
+-rw-r--r--.  1 apa10   users   38 Jan  6 14:23 1_.bashrc

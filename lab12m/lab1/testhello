@@ -1,0 +1,7 @@
+#!/bin/bash
+#$Id$
+#Adam Paz apa10@ucsc.edu
+hello >test1.out 2>test1.err
+echo $? >test1.status
+hello world >test2.out 2>test2.err
+echo $? >test2.status

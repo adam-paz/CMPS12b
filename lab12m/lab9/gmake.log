@@ -1,0 +1,4 @@
+gcc -g -O0 -Wall -Wextra -std=gnu99  -c inssort.c
+gcc -g -O0 -Wall -Wextra -std=gnu99 numsort.o inssort.o -o numsort
+gcc -g -O0 -Wall -Wextra -std=gnu99  -c linesort.c
+gcc -g -O0 -Wall -Wextra -std=gnu99 linesort.o inssort.o -o linesort

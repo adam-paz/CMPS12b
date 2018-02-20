@@ -1,0 +1,12 @@
+airport: # $ID: TEST1.IN,V 1.1 2013-01-31 16:53:16-08 - - $: no such airport
+airport: #: no such airport
+airport: # LONGER SET OF TEST DATA.: no such airport
+airport: #: no such airport
+airport: NYC: no such airport
+airport: ZZ: no such airport
+airport: NOP: no such airport
+airport: DENVER: no such airport
+airport: CAN YOUR PROGRAM HANDLE JUNK LIKE THIS LINE AND JUST PRINT AN ERROR?: no such airport
+airport: REMEMBER THAT INPUT CONSISTS OF ONLY ONE AIRPORT CODE PER LINE.: no such airport
+airport: ALSO, DO YOUR STDERR OUTPUT AND STDOUT OUTPUT PROPERLY INTERMIX: no such airport
+airport: WHEN RUNNING IN REDIRECTED MODE?: no such airport

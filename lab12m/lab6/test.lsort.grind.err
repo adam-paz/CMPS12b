@@ -1,0 +1,24 @@
+==23234== Memcheck, a memory error detector
+==23234== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==23234== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==23234== Command: lsort
+==23234== 
+==23234== 
+==23234== HEAP SUMMARY:
+==23234==     in use at exit: 311 bytes in 11 blocks
+==23234==   total heap usage: 22 allocs, 11 frees, 487 bytes allocated
+==23234== 
+==23234== 311 bytes in 11 blocks are definitely lost in loss record 1 of 1
+==23234==    at 0x4A06AAA: malloc (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==23234==    by 0x3201680E91: strdup (in /lib64/libc-2.12.so)
+==23234==    by 0x400A06: main (lsort.c:46)
+==23234== 
+==23234== LEAK SUMMARY:
+==23234==    definitely lost: 311 bytes in 11 blocks
+==23234==    indirectly lost: 0 bytes in 0 blocks
+==23234==      possibly lost: 0 bytes in 0 blocks
+==23234==    still reachable: 0 bytes in 0 blocks
+==23234==         suppressed: 0 bytes in 0 blocks
+==23234== 
+==23234== For counts of detected and suppressed errors, rerun with: -v
+==23234== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 6 from 6)

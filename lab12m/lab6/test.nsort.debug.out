@@ -1,0 +1,43 @@
+nsort: head= 0x1c84190
+nsort: 0x1c84190-> node {
+    string= 0x1c84130->"-inf",
+    link= 0x1}
+nsort: 0x1c84130-> node {
+    string= 0x1c840f0->"-8.2e+45",
+    link= 0xffffffff}
+nsort: 0x1c840f0-> node {
+    string= 0x1c84110->"-1e+38",
+    link= 0xffffffff}
+nsort: 0x1c84110-> node {
+    string= 0x1c84170->"-8.2e-43",
+    link= 0xffffffff}
+nsort: 0x1c84170-> node {
+    string= 0x1c841b0->"0",
+    link= 0xffffffff}
+nsort: 0x1c841b0-> node {
+    string= 0x1c840b0->"-0",
+    link= 0xffffffff}
+nsort: 0x1c840b0-> node {
+    string= 0x1c840d0->"0.30103",
+    link= 0xffffffff}
+nsort: 0x1c840d0-> node {
+    string= 0x1c84090->"1.41421",
+    link= 0xffffffff}
+nsort: 0x1c84090-> node {
+    string= 0x1c84070->"2.71828",
+    link= 0xffffffff}
+nsort: 0x1c84070-> node {
+    string= 0x1c84010->"3.14159",
+    link= 0xffffffff}
+nsort: 0x1c84010-> node {
+    string= 0x1c84030->"6.8",
+    link= 0xffffffff}
+nsort: 0x1c84030-> node {
+    string= 0x1c84050->"7.3",
+    link= 0xffffffff}
+nsort: 0x1c84050-> node {
+    string= 0x1c84150->"6.02e+23",
+    link= 0xffffffff}
+nsort: 0x1c84150-> node {
+    string= (nil)->"inf",
+    link= 0xffffffff}

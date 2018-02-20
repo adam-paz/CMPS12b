@@ -1,0 +1,54 @@
+==11034== Memcheck, a memory error detector
+==11034== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==11034== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==11034== Command: ./mydc
+==11034== 
+==11034== Invalid read of size 8
+==11034==    at 0x4018B2: free_bigint (bigint.c:103)
+==11034==    by 0x402407: do_binop (main.c:34)
+==11034==    by 0x402756: main (main.c:98)
+==11034==  Address 0x4c304d8 is 24 bytes inside a block of size 32 free'd
+==11034==    at 0x4A06484: free (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11034==    by 0x401BFA: sub_bigint (bigint.c:165)
+==11034==    by 0x4023E4: do_binop (main.c:32)
+==11034==    by 0x402756: main (main.c:98)
+==11034== 
+==11034== Invalid free() / delete / delete[] / realloc()
+==11034==    at 0x4A06484: free (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11034==    by 0x4018C9: free_bigint (bigint.c:104)
+==11034==    by 0x402407: do_binop (main.c:34)
+==11034==    by 0x402756: main (main.c:98)
+==11034==  Address 0x4c304c0 is 0 bytes inside a block of size 32 free'd
+==11034==    at 0x4A06484: free (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11034==    by 0x401BFA: sub_bigint (bigint.c:165)
+==11034==    by 0x4023E4: do_binop (main.c:32)
+==11034==    by 0x402756: main (main.c:98)
+==11034== 
+==11034== 
+==11034== HEAP SUMMARY:
+==11034==     in use at exit: 193 bytes in 4 blocks
+==11034==   total heap usage: 27 allocs, 24 frees, 17,247 bytes allocated
+==11034== 
+==11034== 57 (32 direct, 25 indirect) bytes in 1 blocks are definitely lost in loss record 3 of 4
+==11034==    at 0x4A06AAA: malloc (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11034==    by 0x40138E: new_bigint (bigint.c:30)
+==11034==    by 0x401B36: sub_bigint (bigint.c:147)
+==11034==    by 0x4023E4: do_binop (main.c:32)
+==11034==    by 0x402756: main (main.c:98)
+==11034== 
+==11034== 128 bytes in 1 blocks are definitely lost in loss record 4 of 4
+==11034==    at 0x4A0580F: calloc (in /opt/rh/devtoolset-2/root/usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11034==    by 0x400F70: new_stack (stack.c:24)
+==11034==    by 0x40269F: main (main.c:89)
+==11034== 
+==11034== LEAK SUMMARY:
+==11034==    definitely lost: 160 bytes in 2 blocks
+==11034==    indirectly lost: 25 bytes in 1 blocks
+==11034==      possibly lost: 0 bytes in 0 blocks
+==11034==    still reachable: 8 bytes in 1 blocks
+==11034==         suppressed: 0 bytes in 0 blocks
+==11034== Reachable blocks (those to which a pointer was found) are not shown.
+==11034== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11034== 
+==11034== For counts of detected and suppressed errors, rerun with: -v
+==11034== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 6 from 6)

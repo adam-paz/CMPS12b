@@ -1,0 +1,1896 @@
+head	1.89;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.89
+date	2015.01.29.19.51.50;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2015.01.29.19.51.00;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2015.01.29.19.50.04;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2015.01.29.19.46.56;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2015.01.29.19.39.11;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2015.01.29.19.37.37;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2015.01.29.19.37.05;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2015.01.29.19.33.46;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2015.01.29.19.33.32;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2015.01.29.19.30.46;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2015.01.29.19.28.16;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2015.01.29.19.25.19;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2015.01.29.19.22.34;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2015.01.29.19.22.11;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2015.01.29.19.04.10;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2015.01.29.19.02.27;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2015.01.29.18.50.31;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2015.01.29.18.49.54;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2015.01.29.18.45.21;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2015.01.29.18.43.13;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2015.01.29.18.42.52;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2015.01.29.18.42.22;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2015.01.29.18.42.08;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2015.01.29.18.40.56;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2015.01.29.18.40.46;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2015.01.29.18.30.59;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2015.01.29.18.30.04;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2015.01.29.18.25.30;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2015.01.29.18.15.12;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2015.01.29.04.21.14;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2015.01.29.04.19.12;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2015.01.29.04.17.40;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2015.01.29.04.17.05;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2015.01.29.04.16.26;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2015.01.29.04.14.51;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2015.01.29.04.13.02;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2015.01.29.03.45.51;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2015.01.29.03.44.54;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2015.01.29.03.41.23;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2015.01.29.03.40.47;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2015.01.29.03.40.23;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2015.01.29.03.33.13;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2015.01.29.03.32.46;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2015.01.29.03.31.48;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2015.01.29.03.29.37;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2015.01.29.03.27.39;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2015.01.29.03.25.48;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2015.01.29.03.25.17;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2015.01.29.03.22.31;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2015.01.29.03.20.12;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2015.01.29.03.14.18;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2015.01.29.03.13.11;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2015.01.29.03.07.05;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2015.01.29.03.05.57;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2015.01.29.03.05.08;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2015.01.29.03.04.23;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2015.01.29.03.04.14;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2015.01.29.03.03.09;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2015.01.29.03.02.11;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2015.01.29.03.01.43;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2015.01.29.03.00.36;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2015.01.29.02.56.12;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2015.01.29.02.55.48;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2015.01.29.02.54.15;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2015.01.29.00.50.11;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2015.01.29.00.48.53;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2015.01.29.00.48.22;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2015.01.29.00.47.07;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2015.01.29.00.32.46;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2015.01.29.00.28.33;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2015.01.29.00.27.13;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2015.01.29.00.26.46;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2015.01.29.00.26.22;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2015.01.29.00.25.42;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2015.01.29.00.25.08;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2015.01.29.00.24.46;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2015.01.29.00.19.59;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2015.01.29.00.19.43;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2015.01.29.00.19.02;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2015.01.29.00.17.34;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2015.01.29.00.14.22;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2015.01.29.00.13.24;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2015.01.29.00.12.32;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2015.01.29.00.11.41;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2015.01.29.00.10.46;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2015.01.29.00.10.00;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2015.01.29.00.01.29;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2015.01.29.00.00.12;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2015.01.28.23.56.31;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.89
+log
+@-
+@
+text
+@// $Id: listmap.java,v 1.88 2015-01-29 11:51:00-08 - - $
+
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.NoSuchElementException;
+import static java.lang.System.*;
+
+class listmap implements Iterable<Entry<String,intqueue>> {
+
+   private class node implements Entry<String,intqueue> {
+      String key;
+      intqueue queue = new intqueue();
+      node link;
+      public String getKey() {
+         return key;
+      }
+      public intqueue getValue() {
+         return queue;
+      }
+      public intqueue setValue (intqueue queue) {
+         throw new UnsupportedOperationException();
+      }
+   }
+   private node head = null;
+   public listmap() {
+      // Not needed, since head defaults to null anyway.
+   }
+
+   public void insert (String key, int linenr) {
+        //misc.trace ("insert", key, linenr);
+        String word = key;
+        node prev = null;
+        node curr = head;
+        int cmp = 1, count =1;
+        while (curr != null) {
+           key = curr.getKey();
+           cmp = key.compareTo (word);
+           if (cmp >= 0){ break;}
+           prev = curr;
+           curr = curr.link;
+        }
+        if(cmp != 0){
+           node tmp = new node ();
+           tmp.key = word;
+           tmp.link = curr;
+           if (prev == null) head = tmp;
+                 else prev.link = tmp;
+           out.printf("%s",tmp.key );
+           tmp.queue.insert(linenr);
+        }else {
+           curr.queue.insert(linenr);
+        }
+       
+   }
+
+   public void count(String key, int linernr){
+      out.printf("%s", head.key);
+   }
+
+   public Iterator<Entry<String,intqueue>> iterator() {
+      return new iterator();
+   }
+
+   private class iterator
+           implements Iterator<Entry<String,intqueue>> {
+      node curr = head;
+
+      public boolean hasNext() {
+         return curr != null;
+      }
+
+      public Entry<String,intqueue> next() {
+         if (curr == null) throw new NoSuchElementException();
+         node next = curr;
+         curr = curr.link;
+         return next;
+      }
+
+      public void remove() {
+         throw new UnsupportedOperationException();
+      }
+
+   }
+
+}
+@
+
+
+1.88
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.87 2015-01-29 11:50:04-08 - - $
+d48 1
+a48 1
+           //out.printf("%s",tmp.key );
+@
+
+
+1.87
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.86 2015-01-29 11:46:56-08 - - $
+d48 1
+a48 1
+           out.printf("%s",tmp.key );
+@
+
+
+1.86
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.85 2015-01-29 11:39:11-08 - - $
+a24 1
+   private node tmp = new node();
+d43 1
+a43 1
+          // node tmp = new node ();
+d51 1
+a51 1
+           tmp.queue.insert(linenr);
+@
+
+
+1.85
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.84 2015-01-29 11:37:37-08 - - $
+d25 1
+a25 1
+
+d44 1
+a44 1
+           node tmp = new node ();
+d52 1
+a52 1
+           //tmp.queue.insert(linenr);
+@
+
+
+1.84
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.83 2015-01-29 11:37:05-08 - - $
+d52 1
+a52 1
+           tmp.queue.insert(linenr);
+@
+
+
+1.83
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.82 2015-01-29 11:33:46-08 - - $
+d50 1
+a50 1
+           //curr.queue.insert(linenr);
+d52 1
+a52 1
+          // curr.queue.insert(linenr);
+@
+
+
+1.82
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.81 2015-01-29 11:33:32-08 - - $
+d49 1
+a49 1
+          // out.printf("%s",curr.key );
+@
+
+
+1.81
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.80 2015-01-29 11:30:46-08 - - $
+d49 1
+a49 1
+           out.printf("%s",curr.key );
+@
+
+
+1.80
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.79 2015-01-29 11:28:16-08 - - $
+d50 1
+a50 1
+           curr.queue.insert(linenr);
+d52 1
+a52 1
+           curr.queue.insert(linenr);
+@
+
+
+1.79
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.78 2015-01-29 11:25:19-08 - - $
+d49 1
+@
+
+
+1.78
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.77 2015-01-29 11:22:34-08 - - $
+d50 2
+d53 1
+@
+
+
+1.77
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.76 2015-01-29 11:22:11-08 - - $
+a50 1
+           //intqueue.insert(linenr);
+@
+
+
+1.76
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.75 2015-01-29 11:04:10-08 - - $
+d49 1
+a49 1
+           curr.intqueue.insert(linenr);
+@
+
+
+1.75
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.74 2015-01-29 11:02:27-08 - - $
+d43 1
+a43 1
+        if (cmp != 0) {
+d49 1
+a49 2
+       // }else {
+
+d52 5
+a56 1
+        }
+@
+
+
+1.74
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.73 2015-01-29 10:50:31-08 - - $
+d43 1
+a43 1
+       // if (cmp != 0) {
+d51 1
+a51 1
+       // }
+@
+
+
+1.73
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.72 2015-01-29 10:49:54-08 - - $
+d43 1
+a43 1
+        if (cmp != 0) {
+d49 3
+a51 6
+//           out.printf("%s", head.key);
+        }
+           out.printf("%s : %s %n",curr.key, head.key);
+           if(curr == head)
+           out.printf("%s%n", head.key);
+           curr = head;
+@
+
+
+1.72
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.71 2015-01-29 10:45:21-08 - - $
+d51 1
+@
+
+
+1.71
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.70 2015-01-29 10:43:13-08 - - $
+d51 1
+@
+
+
+1.70
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.69 2015-01-29 10:42:52-08 - - $
+d51 1
+a51 1
+           out.printf("%s", head.key);
+@
+
+
+1.69
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.68 2015-01-29 10:42:22-08 - - $
+a54 1
+   }
+@
+
+
+1.68
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.67 2015-01-29 10:42:08-08 - - $
+d50 1
+a50 1
+        }else{
+@
+
+
+1.67
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.66 2015-01-29 10:40:56-08 - - $
+d52 1
+a52 1
+           current = head;
+@
+
+
+1.66
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.65 2015-01-29 10:40:46-08 - - $
+d49 2
+d52 1
+a52 2
+        }else{
+           count++;
+@
+
+
+1.65
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.64 2015-01-29 10:30:59-08 - - $
+d52 1
+a52 1
+           intqueue.insert(linenr);
+@
+
+
+1.64
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.63 2015-01-29 10:30:04-08 - - $
+d49 1
+@
+
+
+1.63
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.62 2015-01-29 10:25:30-08 - - $
+d51 1
+a51 1
+           intqueue.insert(count);
+@
+
+
+1.62
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.61 2015-01-29 10:15:12-08 - - $
+d50 1
+a50 1
+           count++
+@
+
+
+1.61
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.60 2015-01-28 20:21:14-08 - - $
+d35 1
+a35 1
+        int cmp = 1;
+d49 3
+@
+
+
+1.60
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.59 2015-01-28 20:19:12-08 - - $
+d31 1
+a31 1
+        misc.trace ("insert", key, linenr);
+a38 1
+           out.printf("%s%n", key);
+a45 1
+           //out.printf("%s",word);
+@
+
+
+1.59
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.58 2015-01-28 20:17:40-08 - - $
+d31 1
+a31 1
+//      misc.trace ("insert", key, linenr);
+@
+
+
+1.58
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.57 2015-01-28 20:17:05-08 - - $
+d39 1
+@
+
+
+1.57
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.56 2015-01-28 20:16:26-08 - - $
+d37 2
+a38 2
+           String currWord  = curr.getKey();
+           cmp = word.compareTo (currWord);
+@
+
+
+1.56
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.55 2015-01-28 20:14:51-08 - - $
+d37 1
+a37 1
+           currWord  = curr.getKey();
+@
+
+
+1.55
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.54 2015-01-28 20:13:02-08 - - $
+d32 1
+a32 1
+        String word;
+d37 2
+a38 2
+           word = curr.getKey();
+           cmp = key.compareTo (word);
+@
+
+
+1.54
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.53 2015-01-28 19:45:51-08 - - $
+d32 1
+d37 2
+a38 2
+           String word = curr.getKey();
+           cmp = word.compareTo (key);
+@
+
+
+1.53
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.52 2015-01-28 19:44:54-08 - - $
+a31 1
+        String word = key;
+d36 2
+a37 4
+           key = curr.getKey();
+           out.printf("%s:%s%n",key,word);
+           cmp = key.compareTo (word);
+           out.printf("%d%n",cmp);
+@
+
+
+1.52
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.51 2015-01-28 19:41:23-08 - - $
+d38 2
+a39 2
+           out.printf("%s:%s%n",word, key);
+           cmp = word.compareTo (key);
+@
+
+
+1.51
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.50 2015-01-28 19:40:47-08 - - $
+d38 1
+@
+
+
+1.50
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.49 2015-01-28 19:40:23-08 - - $
+d47 1
+a47 1
+           out.printf("%s",word);
+@
+
+
+1.49
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.48 2015-01-28 19:33:13-08 - - $
+d47 1
+a47 1
+          // out.printf("%s",word);
+@
+
+
+1.48
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.47 2015-01-28 19:32:46-08 - - $
+d38 1
+a38 1
+           cmp = key.compareTo (word);
+@
+
+
+1.47
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.46 2015-01-28 19:31:48-08 - - $
+d39 2
+a40 2
+           out.printf("%d",cmp);
+           if (cmp >= 0){out.printf("yo"); break;}
+@
+
+
+1.46
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.45 2015-01-28 19:29:37-08 - - $
+d39 1
+@
+
+
+1.45
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.44 2015-01-28 19:27:39-08 - - $
+d39 1
+a39 1
+           if (cmp >= 0){/*out.printf("yo");*/ break;}
+d46 1
+a46 1
+           out.printf("%s",word);
+@
+
+
+1.44
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.43 2015-01-28 19:25:48-08 - - $
+d46 1
+a50 8
+        head = null;
+        curr = head.link;
+        while(linenr != 6){
+           key = curr.getKey();
+           out.printf("%s", key);
+
+
+        }
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.42 2015-01-28 19:25:17-08 - - $
+d50 2
+a51 1
+        curr = head;
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.41 2015-01-28 19:22:31-08 - - $
+d51 1
+a51 1
+        while(linenr<6){
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.40 2015-01-28 19:20:12-08 - - $
+d50 7
+a56 1
+        out.printf("%d", linenr);
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.39 2015-01-28 19:14:18-08 - - $
+a48 1
+           out.printf("%s",curr.getKey());
+d50 1
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.38 2015-01-28 19:13:11-08 - - $
+a37 1
+           out.printf("%s:%s%n", key, word);
+d49 1
+@
+
+
+1.38
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.37 2015-01-28 19:07:05-08 - - $
+d37 3
+a39 3
+           String news = curr.getKey();
+           out.printf("%s:%s%n", news, word);
+           cmp = news.compareTo (word);
+@
+
+
+1.37
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.36 2015-01-28 19:05:57-08 - - $
+d39 1
+a39 1
+           cmp = news.value.compareTo (word);
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.35 2015-01-28 19:05:08-08 - - $
+d39 1
+a39 1
+           cmp = curr.value.compareTo (word);
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.34 2015-01-28 19:04:23-08 - - $
+d39 1
+a39 1
+           //cmp = news.value.compareTo (word);
+@
+
+
+1.34
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.33 2015-01-28 19:04:14-08 - - $
+d40 1
+a40 1
+           if (cmp >= 0){out.printf("yo"); break;}
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.32 2015-01-28 19:03:09-08 - - $
+d39 1
+a39 1
+           cmp = news.value.compareTo (word);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.31 2015-01-28 19:02:11-08 - - $
+d38 1
+a38 1
+           //out.printf("%s%n", news);
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.30 2015-01-28 19:01:43-08 - - $
+d38 3
+a40 3
+           out.printf("%s%n", news);
+        //   cmp = news.value.compareTo (word);
+           if (cmp >= 0) break;
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.29 2015-01-28 19:00:36-08 - - $
+d38 1
+a38 1
+           out.printf("%s%n", "got Here");
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.28 2015-01-28 18:56:12-08 - - $
+a31 1
+        node head = null;
+d34 1
+a34 1
+        node curr = head.link;
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.27 2015-01-28 18:55:48-08 - - $
+d35 1
+a35 3
+        node curr = head;
+        String news = curr.getKey();
+        out.printf("%s",news);
+d38 1
+@
+
+
+1.27
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.26 2015-01-28 18:54:15-08 - - $
+d41 1
+a41 1
+           cmp = news.value.compareTo (word);
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.25 2015-01-28 16:50:11-08 - - $
+d37 1
+a37 1
+        //out.printf("%s:%s%n", curr, word);
+@
+
+
+1.25
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.24 2015-01-28 16:48:53-08 - - $
+d32 21
+a52 22
+//      while (head != null) {
+         String word = key;
+         node prev = null;
+         node curr = head;
+         String news = curr.getKey();
+         //out.printf("%s:%s%n", curr, word);
+         int cmp = 1;
+         while (curr != null) {
+            out.printf("%s%n", "got Here");
+            cmp = news.value.compareTo (word);
+            if (cmp >= 0) break;
+            prev = curr;
+            curr = curr.link;
+         }
+         if (cmp != 0) {
+            node tmp = new node ();
+            tmp.key = word;
+            tmp.link = curr;
+            if (prev == null) head = tmp;
+                  else prev.link = tmp;
+       //  }
+      }
+d54 1
+a58 1
+
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.23 2015-01-28 16:48:22-08 - - $
+d36 1
+a36 1
+         String news = curr.key;
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.22 2015-01-28 16:47:07-08 - - $
+d36 1
+a36 1
+         String other = curr.key;
+d41 1
+a41 1
+            cmp = other.value.compareTo (word);
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.21 2015-01-28 16:32:46-08 - - $
+d36 1
+d41 1
+a41 1
+            cmp = curr.value.compareTo (word);
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.20 2015-01-28 16:28:33-08 - - $
+d35 2
+a36 2
+         node curr = prev.link;
+         out.printf("%s:%s%n", curr, word);
+d39 2
+a40 1
+           // cmp = curr.value.compareTo (word);
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.19 2015-01-28 16:27:13-08 - - $
+d32 1
+a32 1
+     // while (head != null) {
+d35 1
+a35 1
+         node curr = head;
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.18 2015-01-28 16:26:46-08 - - $
+d36 1
+a36 1
+         out.printf("%s:%s%n", curr.value, word);
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.17 2015-01-28 16:26:22-08 - - $
+d36 1
+a36 1
+         out.printf("%s:%s%n", curr.key, word);
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.16 2015-01-28 16:25:42-08 - - $
+d35 2
+a36 2
+         node curr = head.key;
+         out.printf("%s:%s%n", curr, word);
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.15 2015-01-28 16:25:08-08 - - $
+d35 1
+a35 1
+         node curr = head;
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.14 2015-01-28 16:24:46-08 - - $
+d32 1
+a32 1
+      while (head != null) {
+d50 1
+a50 1
+         }
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.13 2015-01-28 16:19:59-08 - - $
+d32 1
+a32 1
+      while (head =! null) {
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.12 2015-01-28 16:19:43-08 - - $
+d32 1
+a32 2
+      node head = null;
+      while (head == null) {
+d34 1
+a34 1
+         node prev = prev;
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.11 2015-01-28 16:19:02-08 - - $
+d35 1
+a35 1
+        // node prev = null;
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.10 2015-01-28 16:17:34-08 - - $
+d35 2
+a36 2
+         node prev = null;
+         node curr = prev;
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.9 2015-01-28 16:14:22-08 - - $
+d36 1
+a36 1
+         node curr = prev.key;
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.8 2015-01-28 16:13:24-08 - - $
+d36 2
+a37 1
+         node curr = head;
+a38 1
+         out.printf("%s%n", curr);
+a48 1
+            out.printf("%s%n", tmp.key);
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.7 2015-01-28 16:12:32-08 - - $
+d49 1
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.6 2015-01-28 16:11:41-08 - - $
+d47 1
+a47 1
+            tmp.value = word;
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.5 2015-01-28 16:10:46-08 - - $
+d47 1
+a47 1
+            //tmp.value = word;
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.4 2015-01-28 16:10:00-08 - - $
+a34 1
+         out.printf("%s%n", word);
+d38 1
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.3 2015-01-28 16:01:29-08 - - $
+a32 1
+out.printf("%s", head);
+d35 1
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.2 2015-01-28 16:00:12-08 - - $
+d31 1
+a31 1
+      misc.trace ("insert", key, linenr);
+d33 1
+d40 1
+a40 1
+            cmp = curr.value.compareTo (word);
+d47 1
+a47 1
+            tmp.value = word;
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.1 2015-01-28 15:56:31-08 - - $
+d33 1
+a33 1
+      while (head != null) {
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: listmap.java,v 1.5 2013-10-16 17:10:32-07 - - $
+d33 1
+a33 1
+      //while (stdin.hasNext ()) {
+a37 1
+         out.printf("%s", curr);
+d51 1
+a51 1
+      //}
+@

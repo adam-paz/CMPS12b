@@ -1,0 +1,14 @@
+==10084== Memcheck, a memory error detector
+==10084== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==10084== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==10084== Command: mstat \\ futuretimes.c mk mk.build mk.test mktimestamp.c mstat mstat.c mstat.perl now.c README showlink showlink.c strftime.c test1.status test1.stderr test1.stdout test2.status test2.stderr test2.stdout test3.status test3.stderr test3.stdout testdir testv.stderr testv.stdout this-is-a-symlink timestamp.0000000000000000 timestamp.0000000053CDB47D timestamp.0000000054D5607D timestamp.0000000055DD0C7D timestamp.000000007FFFFFFF timestamp.00000000FFFFFFFF timestamp.000000FFFFFFFFFF timestamp.FFFFFFFF80000000 ttest1.status ttest1.stderr ttest1.stdout ttest2.status ttest2.stderr ttest2.stdout ttest3.status ttest3.stderr ttest3.stdout ttestv.stderr ttestv.stdout
+==10084== 
+==10084== 
+==10084== HEAP SUMMARY:
+==10084==     in use at exit: 0 bytes in 0 blocks
+==10084==   total heap usage: 8 allocs, 8 frees, 2,490 bytes allocated
+==10084== 
+==10084== All heap blocks were freed -- no leaks are possible
+==10084== 
+==10084== For counts of detected and suppressed errors, rerun with: -v
+==10084== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)

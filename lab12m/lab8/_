@@ -1,0 +1,50 @@
+//Adam Paz (apa10@ucsc.edu)
+//$Id$
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <include.h>
+#include <errno.h>
+#include <string.h>
+#include <sys/stats>
+#include <sys/types.h>
+
+#define SEC_PER_DAY (24 * 60 * 60)
+#define SEC_PER_YEAR (SEC_PER_DAY * 365 + SEC_PER_DAY / 4)
+
+int exit_status = EXIT_SUCCESS;
+
+int main (int argc, char **argv){
+   char filename[64];
+   File *file = fopen(filename)
+   time_t now = time (NULL);
+   struct tm tm_now;
+   localtime_r (&now, &tm_now);
+
+   if(file ==NULL){ 
+      fprintf (stderr, "mstat: %s: %s\n",
+           filename, strerror (errno));
+      exit_status = EXIT_FAILURE;
+      return;
+   }
+}
+
+
+void timestamp (char *filename) {
+   struct stack buf;
+   int stats = lstat(filename, &buf);
+   if (lstat != 0) {
+       fflush(NULL);
+       fprintf (stderr, "mstat: %s: %s\n",
+           filename, strerror (errno));
+       exit_status = EXIT_FAILURE;  
+       fflush(NULL);
+   }
+   sprintf (filename, "timestamp.%016lX", when);
+   if (file == NULL) {
+   fprintf (stderr, "%s: %s: %s\n",
+   execname, filename, strerror (errno));
+   exit_status = EXIT_FAILURE;
+   return;
+}

@@ -1,0 +1,69 @@
+Script started on Tue 10 Feb 2015 04:19:57 PM PST
+You are currently using 61% (628.8 MiB) of your 1.0 GiB quota.
+]0;apa10@be-linux28:lab5[apa10@be-linux28 lab5]$ env[K[K[K./[K[Kexit./environ
+GIO_LAUNCHED_DESKTOP_FILE_PID=23494
+OSTYPE=linux
+LD_LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib64:/opt/rh/devtoolset-2/root/usr/lib64:/opt/rh/devtoolset-2/root/usr/lib64
+DISPLAY=:0.0
+PCP_DIR=/opt/rh/devtoolset-2/root
+WINDOWPATH=1
+ENVI_DIR=/usr/local/envi/envi50
+HOSTNAME=be-linux28.lt.ucsc.edu
+COLORTERM=gnome-terminal
+QTLIB=/usr/lib64/qt-3.3/lib
+MACHTYPE=x86_64
+EXELIS_DIR=/usr/local/envi
+GTK_RC_FILES=/etc/gtk/gtkrc:/afs/cats.ucsc.edu/users/c/apa10/.gtkrc-1.2-gnome2
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=apa10
+PERL5LIB=/opt/rh/devtoolset-2/root/usr/lib/perl5/vendor_perl:/opt/rh/devtoolset-2/root/usr/lib/perl5:/opt/rh/devtoolset-2/root/usr/share/perl5/vendor_perl:/opt/rh/devtoolset-2/root/usr/lib/perl5/vendor_perl:/opt/rh/devtoolset-2/root/usr/lib/perl5:/opt/rh/devtoolset-2/root/usr/share/perl5/vendor_perl:/opt/rh/devtoolset-2/root/usr/lib/perl5/vendor_perl:/opt/rh/devtoolset-2/root/usr/lib/perl5:/opt/rh/devtoolset-2/root/usr/share/perl5/vendor_perl
+GNOME_KEYRING_SOCKET=/tmp/keyring-DxwJSB/socket
+SHELL=/bin/csh
+PATH=/opt/rh/devtoolset-2/root/usr/bin:/opt/rh/devtoolset-2/root/usr/bin:/usr/lib64/qt-3.3/bin:/opt/rh/devtoolset-2/root/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/texlive/2012/bin/x86_64-linux:/usr/local/python3/bin:/usr/local/codebench/bin:/afs/cats.ucsc.edu/users/c/apa10/bin:.:/usr/local/python3/bin:/usr/local/codebench/bin:/usr/local/python3/bin:/usr/local/codebench/bin
+IDL_DIR=/usr/local/envi/idl82
+XMODIFIERS=@im=none
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/gnome-terminal.desktop
+SSH_AUTH_SOCK=/tmp/keyring-DxwJSB/socket.ssh
+XAUTHORITY=/var/run/gdm/auth-for-apa10-SmYybQ/database
+QT_IM_MODULE=xim
+GDMSESSION=gnome
+HOST=be-linux28.lt.ucsc.edu
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+VENDOR=unknown
+LIBGL_DRIVERS_PATH=/usr/lib64/dri:/usr/lib/dri
+PYTHONPATH=/opt/rh/devtoolset-2/root/usr/lib64/python2.6/site-packages:/opt/rh/devtoolset-2/root/usr/lib/python2.6/site-packages:/opt/rh/devtoolset-2/root/usr/lib64/python2.6/site-packages:/opt/rh/devtoolset-2/root/usr/lib/python2.6/site-packages:/opt/rh/devtoolset-2/root/usr/lib64/python2.6/site-packages:/opt/rh/devtoolset-2/root/usr/lib/python2.6/site-packages
+HOSTTYPE=x86_64-linux
+KRB5CCNAME=FILE:/tmp/krb5cc_59954_Z70iHy
+GROUP=users
+MAIL=/var/spool/mail/apa10
+USERNAME=apa10
+DESKTOP_SESSION=gnome
+GDM_KEYBOARD_LAYOUT=us
+XDG_SESSION_COOKIE=5cd392581ba497c511b455eb00000028-1423602924.609016-603134310
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+QTDIR=/usr/lib64/qt-3.3
+USER=apa10
+PWD=/afs/cats.ucsc.edu/users/c/apa10/lab12m/lab5
+CVS_RSH=ssh
+QTINC=/usr/lib64/qt-3.3/include
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOME=/afs/cats.ucsc.edu/users/c/apa10
+ORBIT_SOCKETDIR=/tmp/orbit-apa10
+IMSETTINGS_MODULE=none
+KDEDIRS=/usr
+KDE_IS_PRELINKED=1
+LANG=en_US.UTF-8
+G_BROKEN_FILENAMES=1
+SHLVL=3
+INFOPATH=/opt/rh/devtoolset-2/root/usr/share/info:/opt/rh/devtoolset-2/root/usr/share/info:/opt/rh/devtoolset-2/root/usr/share/info:/usr/local/texlive/2012/texmf/doc/info
+WINDOWID=44040195
+GDM_LANG=en_US.UTF-8
+TERM=xterm
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-4rWbW9uHwn,guid=eb0b23759248f0ab095fef2200013dd3
+GNOME_KEYRING_PID=10149
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/10265,unix/unix:/tmp/.ICE-unix/10265
+]0;apa10@be-linux28:lab5[apa10@be-linux28 lab5]$ exit
+exit
+
+Script done on Tue 10 Feb 2015 04:20:37 PM PST

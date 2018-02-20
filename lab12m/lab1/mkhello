@@ -1,0 +1,10 @@
+#!/bin/bash
+#$Id$
+#Adam apa10@ucsc.edu
+cid hello.java
+javac hello.java
+echo Main-class: hello >Manifest
+jar cvfm hello Manifest hello.class
+chmod +x hello
+rm Manifest
+rm hello.class

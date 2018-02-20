@@ -1,0 +1,18 @@
+cmatch.c: In function ‘main’:
+cmatch.c:73:15: warning: implicit declaration of function ‘findword’ [-Wimplicit-function-declaration]
+               findword(input, theword, filename, opts);
+               ^
+cmatch.c: At top level:
+cmatch.c:86:6: warning: conflicting types for ‘findword’ [enabled by default]
+ void findword(FILE *input, char *theword, char *filename, options opts){
+      ^
+cmatch.c:73:15: note: previous implicit declaration of ‘findword’ was here
+               findword(input, theword, filename, opts);
+               ^
+cmatch.c: In function ‘findword’:
+cmatch.c:93:11: warning: implicit declaration of function ‘strcasestr’ [-Wimplicit-function-declaration]
+           word = strcasestr(buf, theword);
+           ^
+cmatch.c:93:16: warning: assignment makes pointer from integer without a cast [enabled by default]
+           word = strcasestr(buf, theword);
+                ^

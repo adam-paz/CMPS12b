@@ -1,0 +1,74 @@
+// $Id: jcal.java,v 1.2 2013-03-27 21:24:26-07 - - $
+
+import java.util.*;
+import java.io.*;
+import static java.lang.System.*;
+import java.util.GregorianCalendar;
+import java.util.Calendar;
+import java.text.*;
+
+class jcal {
+   static final int MONTHS_IN_YEAR = 12;
+   static final int WEEKS_IN_MONTH =  6;
+   static final int DAYS_IN_WEEK   =  7;
+    static final GregorianCalendar CHANGE_DATE
+               = new GregorianCalendar (1752, Calendar.SEPTEMBER, 14);
+
+
+   public static void main (String[] args) {
+      int[][] month = new int[WEEKS_IN_MONTH][DAYS_IN_WEEK]; 
+      int calmonth, calyear;
+      GregorianCalendar cal = new GregorianCalendar();
+      cal.setGregorianChange (CHANGE_DATE.getTime());
+      //System.out.println(cal.getTime().toString());
+      //int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
+      if (args.length == 1){
+	//Print the whole year
+          calyear = Integer.parseInt (args[0]) - 1;
+          for( calmonth =0; calmonth<11; calmonth++){
+        	  cal = new GregorianCalendar(calyear, calmonth, 1);
+        	  make_month(calmonth, month, cal);
+          }   
+      }
+      else if(args.length >1 && args.length<= 2){
+	//print specific month of a year
+    	  calmonth = Integer.parseInt (args[0]) - 1;
+    	  calyear = Integer.parseInt (args[1]);
+    	  cal = new GregorianCalendar(calyear, calmonth, 1);
+	  make_month(calmonth, month, cal);
+	 // print_month(month, cal);
+      }
+      else{
+    	  calmonth = cal.get (GregorianCalendar.MONTH);
+          calyear  = cal.get (GregorianCalendar.YEAR);
+          cal = new GregorianCalendar(calyear, calmonth, 1);
+          make_month(calmonth, month, cal);
+    	  for (int thismonth = cal.get (GregorianCalendar.MONTH);
+    	           thismonth == cal.get (GregorianCalendar.MONTH);
+    	           cal.add (GregorianCalendar.DAY_OF_MONTH, 1))
+	out.printf("%2s", "hello");
+      }
+   }
+     static void make_month(int calmonth,int[][] month, GregorianCalendar cal){
+		while (calmonth == cal.get (GregorianCalendar.MONTH)) {
+ 	        	int calday = cal.get (GregorianCalendar.DAY_OF_MONTH);
+        		int weekday = cal.get (GregorianCalendar.DAY_OF_WEEK);
+			int weekNum = cal.get(GregorianCalendar.WEEK_OF_MONTH);	
+			month[weekNum-1][weekday-1] = calday;
+			cal.add(GregorianCalendar.DAY_OF_MONTH, 1);
+		}
+		print_month(month, cal);
+	}
+	static void print_month(int[][] month, GregorianCalendar cal){
+	    SimpleDateFormat month_date = new SimpleDateFormat("MMMMMMMMM");
+	    String month_name = month_date.format(cal.getTime());
+	    out.printf("%15s%n", month_name);
+	    out.printf("%s: %tY", cal );
+	    for (int[] week: month) {
+            for (int day = 0; day < week.length; ++day) {
+            System.out.printf (day == 0 ? "%2d" : "%3d", week[day]);
+            }
+         System.out.printf ("%n");
+         } 
+	}
+}
